@@ -6,6 +6,7 @@ class PigLatinizer
 
     word_arr.index {|char| char.match(/\A([aeiou]|[AEIOU])/)}
 
+    binding.pry
 
     # if word.chr.match(/\A([aeiou]|[AEIOU])/)
     #   word.concat("way")
