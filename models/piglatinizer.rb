@@ -1,4 +1,5 @@
 class PigLatinize
+  
 
   def initialize
 
