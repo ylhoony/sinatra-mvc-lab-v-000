@@ -9,4 +9,8 @@ class PigLatinize
 
   end
 
+  def to_pig_latin
+    
+  end
+
 end
