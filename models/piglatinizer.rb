@@ -1,5 +1,4 @@
 class PigLatinizer
-  # attr_accessor :phrase
 
   def piglatinize(word)
     word_arr = word.split("")
@@ -13,7 +12,7 @@ class PigLatinizer
     end
   end
 
-  def to_pig_latin
+  def to_pig_latin(sentence)
 
   end
 
