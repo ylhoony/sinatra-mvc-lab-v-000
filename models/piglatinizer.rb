@@ -6,12 +6,11 @@ class PigLatinize
   end
 
   def piglatinize
-    phrase.slice(1, phrase.size-1).concat(phrase[0])
+    phrase.slice(1, phrase.size-1).concat(phrase[0],"ay")
   end
 
   def to_pig_latin
-    
+
   end
 
 end
-
