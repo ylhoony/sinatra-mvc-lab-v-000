@@ -5,4 +5,8 @@ class PigLatinize
     @phrase = phrase
   end
 
+  def convert
+
+  end
+
 end
