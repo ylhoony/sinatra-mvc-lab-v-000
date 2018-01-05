@@ -1,8 +1,8 @@
 class PigLatinize
-  
+  attr_accessor :
 
-  def initialize
-
+  def initialize(phrase)
+    @phrase = phrase
   end
 
 end
