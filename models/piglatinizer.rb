@@ -2,6 +2,7 @@ class PigLatinizer
   # attr_accessor :phrase
 
   def piglatinize(word)
+    word_arr = word.split("")
     if word.chr.match(/\A([aeiou]|[AEIOU])/)
       word.concat("way")
     else
