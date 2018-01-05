@@ -18,7 +18,6 @@ class PigLatinizer
     sentence_arr.collect do |word|
       piglatinize(word)
     end.join(" ")
-
   end
 
 end
