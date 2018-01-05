@@ -13,7 +13,7 @@ class PigLatinizer
   end
 
   def to_pig_latin(sentence)
-    sentence_arr = sentence.split(" ")
+    sentence_arr = sentence.split(" ") if sentence.include?(" ")
 
     sentence_arr.collect do |word|
       piglatinize(word)
