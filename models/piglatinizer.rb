@@ -8,7 +8,8 @@ class PigLatinizer
     if consonant_index == 0
       word.concat("way")
     else
-      word.slice(consonant_index, word.size-1).concat(word[0]).concat("ay")
+      prefix = word.slice(0, consonant_index)
+      word.slice(consonant_index, word.size-1).concat(prefix).concat("ay")
     end
   end
 
