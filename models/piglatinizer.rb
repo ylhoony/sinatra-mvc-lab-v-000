@@ -4,7 +4,7 @@ class PigLatinizer
   def piglatinize(word)
     # binding.pry
     if word.chr.match(/\A([aeiou]|[AEIOU])/)
-      #do this
+      word.concat(word[0]).concat("ay")
     else
       word.slice(1, word.size-1).concat(word[0]).concat("ay")
     end
