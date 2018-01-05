@@ -4,8 +4,8 @@ class PigLatinizer
   def piglatinize(word)
     word_arr = word.split("")
 
-    word_arr.index {|char| char.match(/\A([aeiou]|[AEIOU])/)}
-
+    if word_arr.index {|char| char.match(/\A([aeiou]|[AEIOU])/)} == 0
+        word.concat("way")
     binding.pry
 
     # if word.chr.match(/\A([aeiou]|[AEIOU])/)
