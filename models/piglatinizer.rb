@@ -3,7 +3,7 @@ class PigLatinizer
 
   def piglatinize(word)
     # binding.pry
-    word.slice(1, word.size-1).concat(word[0]).concat("way")
+    word.slice(1, word.size-1).concat(word[0]).concat("ay")
   end
 
   def to_pig_latin
